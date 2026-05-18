@@ -89,7 +89,7 @@ router.post('/fill-schedule', async (req, res) => {
           const ex = template[i];
           const exists = await Exercise.exists({ userId: req.user.userId, date: dateStr, name: ex.name });
           if (exists) continue;
-
+          // +5kg every 3 weeks: weeks 0-2 no change, weeks 3-5 +5kg, weeks 6-8 +10kg etc.
           const overloadCycles = Math.floor(week / 3);
           const overload = (i === firstStrengthIdx && ex.type === 'strength')
             ? overloadCycles * 5 : 0;
