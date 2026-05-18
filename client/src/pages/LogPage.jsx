@@ -156,6 +156,7 @@ export default function LogPage({ addToast }) {
           placeholder="🔍 Search exercise name, notes, category…"
           value={search}
           onChange={e => handleSearch(e.target.value)}
+          minLength={1}
         />
         <select
           className="select"
