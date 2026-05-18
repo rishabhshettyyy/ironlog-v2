@@ -132,7 +132,7 @@ export default function AuthPage() {
               <input
                 className="input"
                 type="password"
-                placeholder={mode === 'register' ? 'At least 6 characters' : 'Your password'}
+                placeholder={mode === 'register' ? 'Min. 6 characters' : 'Your password'}
                 value={form.password}
                 onChange={e => set('password', e.target.value)}
                 required
