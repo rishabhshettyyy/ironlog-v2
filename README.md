@@ -1,5 +1,7 @@
 # IronLog v2 — Workout Tracker
 
+**Repository:** https://github.com/YOUR_USERNAME/ironlog-v2
+
 A full-stack single-page application for logging workouts, tracking progressive overload, monitoring body weight and BMI trends, and managing users — built with React, Express, and MongoDB.
 
 ---
