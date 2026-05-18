@@ -1,0 +1,20 @@
+[
+  {
+    "_comment": "Import this into the 'users' collection in MongoDB Compass.",
+    "_comment2": "Passwords are bcrypt hashed. Admin password: admin123 | User password: user123",
+    "name": "Admin",
+    "email": "admin@ironlog.com",
+    "password": "$2a$12$LQv3c1yqBWVHxkd0LHAkCOYz6TtxMQJqhN8/LewKyNiLXCJTVHeaO",
+    "role": "admin",
+    "heightCm": null,
+    "avatarInitials": "AD"
+  },
+  {
+    "name": "Rishabh",
+    "email": "rishabh@ironlog.com",
+    "password": "$2a$12$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uX/7YMFce",
+    "role": "user",
+    "heightCm": 175,
+    "avatarInitials": "RI"
+  }
+]
